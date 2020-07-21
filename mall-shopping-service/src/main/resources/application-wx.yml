@@ -1,4 +1,4 @@
-litemall:
+mall-shopping-wx:
   # 开发者应该设置成自己的wx相关信息
   wx:
     app-id: wxeea9ec3042c65ec4
@@ -92,7 +92,7 @@ litemall:
     local:
       storagePath: storage
       # 这个地方应该是wx模块的WxStorageController的fetch方法对应的地址
-      address: http://localhost:8080/wx/storage/fetch/
+      address: http://localhost:8800/wx/storage/fetch/
     # 阿里云对象存储配置信息
     aliyun:
       endpoint: oss-cn-shenzhen.aliyuncs.com
@@ -105,10 +105,13 @@ litemall:
       secretId: 111111
       secretKey: xxxxxx
       region: xxxxxx
-      bucketName: litemall
+      bucketName: mall-shopping-wx
     # 七牛云对象存储配置信息
     qiniu:
       endpoint: http://pd5cb6ulu.bkt.clouddn.com
       accessKey: 111111
       secretKey: xxxxxx
-      bucketName: litemall
+      bucketName: mall-shopping-wx
+
+requesthandlerselectors:
+  basepackage: com.platform.mall.mobile.web

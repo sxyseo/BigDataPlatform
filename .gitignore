@@ -1,6 +1,6 @@
 .DS_Store
 /*backup/
-/.idea
+#/.idea
 /mall-admin-web/node_modules
 /mall-admin-web/dist
 /mall-admin-web/target/
@@ -17,11 +17,22 @@
 /mall-backend/mall-search/target/
 /mall-backend/README.md
 /*/README.md
+/mall-shopping-app/.idea
+
+/mall-shopping-app/node_modules/*
+/mall-shopping-app/node_modules
+
+/*/src/main/resources/rebel*.xml
+/*/*/src/main/resources/rebel*.xml
+/*/*/*/src/main/resources/rebel*.xml
+/*/*/*/src/main/resources/rebel*.xml
+/compute-mr/.iml
+/compute-realtime/.iml
 
 /mall-shopping-app/*.bak
-
+/*/*.iml
 # Editor directories and files
-*.idea
+#*.idea
 *.vscode
 *.suo
 *.ntvs*
@@ -37,9 +48,18 @@ target/
 .project
 .settings
 .springBeans
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
 
 ### IntelliJ IDEA ###
-.idea
+#.idea
 *.iws
 *.iml
 *.ipr
